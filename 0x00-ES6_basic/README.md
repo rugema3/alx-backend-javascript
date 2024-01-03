@@ -1,4 +1,5 @@
 <h1>0x00. ES6 Basics</h1>
+<img src="/images/js.png">
 <h1>Resources</h1>
 <h2>Read or watch:</h2>
 
