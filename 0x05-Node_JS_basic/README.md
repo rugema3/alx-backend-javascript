@@ -1,15 +1,17 @@
 <h1>0x05-Node_JS_basic</h1>
-Resources
-Read or watch:
+<h1>Resources</h1>
+<b>Read or watch:</b>
 
-Node JS getting started
-Process API doc
-Child process
-Express getting started
-Mocha documentation
-Nodemon documentation
-Provided files
+<li><a href="https://intranet.alxswe.com/rltoken/hROgW3QO9jqFnFP-Nzwh8A">Node JS getting started</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/Wt69QV2xygB4GEqob26AjQ">Process API doc</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/IS4y9rRCblX71W_oeXpymw">Child process</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/XsfrhG9NRLuuaTpVZlZv_g">Express getting started</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/EBGDj1FwLrK_y4kgxp8hfg">Mocha documentation</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/vnDSbLsicMDdxcf5YUSXIg">Nodemon documentation</a></li>
+
+<h1>Provided files</h1>
 database.csv
+<pre>
 firstname,lastname,age,field
 Johann,Kerbrou,30,CS
 Guillaume,Salou,30,SWE
@@ -21,9 +23,9 @@ Joseph,Crisou,34,SWE
 Paul,Schneider,60,SWE
 Tommy,Schoul,32,SWE
 Katie,Shirou,21,CS
-package.json
-Click to show/hide file contents
-
+</pre><br>
+<b>package.json</b>
+<pre>
 {
   "name": "node_js_basics",
   "version": "1.0.0",
@@ -55,9 +57,9 @@ Click to show/hide file contents
     "sinon": "^7.5.0"
   }
 }
-
+</pre><br>
 babel.config.js
-Click to show/hide file contents
+<pre>
 
 module.exports = {
   presets: [
@@ -71,9 +73,9 @@ module.exports = {
     ],
   ],
 };
-
+</pre><br>
 .eslintrc.js
-Click to show/hide file contents
+<pre>
 
 module.exports = {
   env: {
@@ -112,16 +114,17 @@ module.exports = {
     }
   ]
 };
-
+</pre><br>
+<p>
 and…
-Don’t forget to run $ npm install when you have the package.json
-
-Tasks
-0. Executing basic javascript with Node JS
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Don’t forget to run <pre>$ npm install </pre>when you have the package.json
+</p>
+<h1>Tasks</h1>
+<b>0. Executing basic javascript with Node JS</b>
+<p>
 In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.
-
+</p>
+<pre>
 bob@dylan:~$ cat 0-main.js
 const displayMessage = require('./0-console');
 
@@ -130,17 +133,18 @@ displayMessage("Hello NodeJS!");
 bob@dylan:~$ node 0-main.js
 Hello NodeJS!
 bob@dylan:~$
+</pre>
 Repo:
 
-GitHub repository: alx-backend-javascript
-Directory: 0x05-Node_JS_basic
-File: 0-console.js
+<li>GitHub repository: alx-backend-javascript</li>
+<li>Directory: 0x05-Node_JS_basic</li>
+<li>File: 0-console.js</li>
     
-1. Using Process stdin
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+<b>1. Using Process stdin</b>
+<p>
 Create a program named 1-stdin.js that will be executed through command line:
-
+</p>
+<p>
 It should display the message Welcome to Holberton School, what is your name? (followed by a new line)
 The user should be able to input their name on a new line
 The program should display Your name is: INPUT
